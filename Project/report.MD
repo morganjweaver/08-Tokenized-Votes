@@ -52,9 +52,6 @@ Transactions:
 | 0x87691ee6e40c6404e6d8a515d0ef9a6f2041e24d9c92487aca62d24b136cedc3 | 0x97c44088bb74583a03e0d21e9e56cdae60a306b0 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run delegate.ts | Delegate Votes |
 | 0x8bb421625e0b2dcf069eb2e3562b84eeff10e335035c84f4696ab419ebab7b6a | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run delegate.ts | Delegate Votes |
 
-
-| 0x7c0080483a0d63e0faebbbb09b3235424e92fb1073bc77428f512db62cb26919 | 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf | 0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE | run delegate.ts | Delegate self as voter |
-
 Running scripts:
 
 1. **Deployment**:
