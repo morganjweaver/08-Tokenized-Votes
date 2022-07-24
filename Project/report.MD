@@ -8,11 +8,24 @@ Discord IDs/Names: @s6thgehr (Thomas Gehrmann) @libertine (Morgan Weaver) @sdav 
 
 Here we present the results of running our scripts with several proposals for tokenized voting, and the functionality of our scripts verifiable by blockchain transactions.
 
-Please see tests directory for testing information. We deployed the contracts on goerli testnet.
+Please see tests directory for testing information. We deployed the contracts on **goerli testnet**.
 
-Token address: 0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE
+----------------------------------------------------------------------------------
+**TL;DR**
+1. The chairperson deployed the token contract and minted 10 tokens for everyone.
+2. Everyone delegated voting rights to themself or to someone else in order to "activate" the votes.
+3. The first ballot contract was deployed.
+4. Everyone voted on the ballot.
+5. Some delegated their votes to someone else.
+6. Second Ballot contract was deployed.
+7. Everyone voted on that Ballot, too.
+8. Query winners for both ballots.
+----------------------------------------------------------------------------------
 
-Proposals Ballot 1 (0x513b542be775BE31cAEFf19F97753367757EcAa8): 
+
+Token address: **0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE**
+
+Proposals Ballot 1 (**0x513b542be775BE31cAEFf19F97753367757EcAa8**): 
 
 1. Chocolate
 2. Vanilla
@@ -20,7 +33,7 @@ Proposals Ballot 1 (0x513b542be775BE31cAEFf19F97753367757EcAa8):
 4. Pistachio
 5. Strawberry
 
-Proposals Ballot 2:
+Proposals Ballot 2 (**0xa927Effa17E6E57e33Eef82c89051AB9Be47E708**):
 
 1. Barcelona
 2. Paris
