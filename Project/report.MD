@@ -8,9 +8,11 @@ Discord IDs/Names: @s6thgehr (Thomas Gehrmann) @libertine (Morgan Weaver) @sdav 
 
 Here we present the results of running our scripts with several proposals for tokenized voting, and the functionality of our scripts verifiable by blockchain transactions.
 
-Please see tests directory for testing information.
+Please see tests directory for testing information. We deployed the contracts on goerli testnet.
 
-Proposals Ballot 1:
+Token address: 0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE
+
+Proposals Ballot 1: 
 
 1. Chocolate
 2. Vanilla
@@ -38,7 +40,12 @@ Transactions:
 
 | Tx Hash                                                            | From                                       | To  | Action            | Notes             |
 | ------------------------------------------------------------------ | ------------------------------------------ | --- | ----------------- | ----------------- |
-| 0xDEADBEEF | 0xDEADBEEF | 0xDEADBEEF | run deployment.ts | Contract Creation |
+| 0x2159621b5c6d94cb8ade0dd8774a729f86ef9ce50993bee2c00e8e8f55ef52fe | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run tokenDeployment.ts | Token Contract Creation |
+| 0x932e809f75e133f233b228cd89b70efd28ddcd30857f4d7e8fcd06411b2889f5 | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run mint.ts | Mint Token |
+| 0x32673a429160fe43df5ef9128bc4ffe897b2f56f214a5f160fec6eaf78bdc96c | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run mint.ts | Mint Token |
+| 0xb6121bf538d0865c6cc89d8836ec70e8230d9e1537846ffe290dc32133b0552b | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run mint.ts | Mint Token |
+| 0xfd26331a9206c34abe529779116d2175a1273fc17f22ff56a90246a36b7ad3a3 | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run mint.ts | Mint Token |
+| 0x620469db3ad87e6fce67be0701a1bdebae57f519f63538fcdf8296e32100abc8 | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run mint.ts | Mint Token |
 
 
 Running scripts:
