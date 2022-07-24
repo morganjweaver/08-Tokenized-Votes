@@ -86,13 +86,19 @@ Running scripts:
    Proposal N. 5: Strawberry
    ```
 
-3. **Give voting rights**:
+3. **Minting Tokens/Give voting rights**:
 
-   *yarn ts-node scripts/giveVotingRights.ts "contract address" "voter address"*
+   *yarn ts-node scripts/mint.ts "contract address" "voter address" "amount"*
    
    Console log:
    ```
-   ...
+   Using address 0x5214990E840dEB4581760606a9970a0186AAa7F3
+   Wallet balance 0.050701012943105252
+   Attaching token contract interface to address 0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE
+   Giving 10 votes to 0x5214990E840dEB4581760606a9970a0186AAa7F3
+   Awaiting confirmations
+   Completed
+   Transaction completed. Hash: 0x932e809f75e133f233b228cd89b70efd28ddcd30857f4d7e8fcd06411b2889f5
    ```
    
 4. **Delegate vote**:
