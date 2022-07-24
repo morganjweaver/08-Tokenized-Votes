@@ -16,7 +16,7 @@ Proposals Ballot 1:
 
 1. Chocolate
 2. Vanilla
-3. Rasperry
+3. Raspberry
 4. Pistachio
 5. Strawberry
 
