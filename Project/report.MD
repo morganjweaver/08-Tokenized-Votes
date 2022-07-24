@@ -67,6 +67,17 @@ Running scripts:
 
    *yarn ts-node scripts/Ballot/queryProposals.ts ...*
    
+   Console log:
+   ```
+   Using address 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf
+   Wallet balance 1.0217509310656996
+   Proposals:
+   Proposal N. 1: Chocolate
+   Proposal N. 2: Vanilla
+   Proposal N. 3: Raspberry
+   Proposal N. 4: Pistachio
+   Proposal N. 5: Strawberry
+   ```
 
 3. **Give voting rights**:
 
@@ -88,11 +99,12 @@ Running scripts:
    
 5. **Cast vote**:
 
-   *yarn ts-node scripts/Ballot/castVote.ts "contract address" "proposal number"*
+   *yarn ts-node scripts/Ballot/castVote.ts "contract address" "proposal number" "number of votes"*
    
    Console log:
    ```
-    ... 
+   Wallet balance 1.0218851150663257
+   Attaching Ballot contract interface to address 0x513b542be775BE31cAEFf19F97753367757EcAa8
    ```
    
 6. **Query voting result**:
