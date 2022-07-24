@@ -58,16 +58,21 @@ Running scripts:
 
 1. **Deployment**:
 
-   *yarn ts-node scripts/Ballot/deployment.ts ...*
+   *yarn ts-node scripts/tokenDeployment.ts ...*
    
    Console log:
    ```
-   ...
+   Using address 0x5214990E840dEB4581760606a9970a0186AAa7F3
+   Wallet balance 0.051901018945105376
+   Deploying token
+   Awaiting confirmations
+   Completed
+   Token contract deployed at 0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE
    ```
    
 2. **Query proposals**:
 
-   *yarn ts-node scripts/Ballot/queryProposals.ts ...*
+   *yarn ts-node scripts/queryProposals.ts ...*
    
    Console log:
    ```
@@ -83,7 +88,7 @@ Running scripts:
 
 3. **Give voting rights**:
 
-   *yarn ts-node scripts/Ballot/giveVotingRights.ts "contract address" "voter address"*
+   *yarn ts-node scripts/giveVotingRights.ts "contract address" "voter address"*
    
    Console log:
    ```
@@ -92,7 +97,7 @@ Running scripts:
    
 4. **Delegate vote**:
 
-   *yarn ts-node scripts/Ballot/delegate.ts "contract address" "delegate address"*
+   *yarn ts-node scripts/delegate.ts "contract address" "delegate address"*
    
    Console log:
    ```
@@ -106,7 +111,7 @@ Running scripts:
    
 5. **Cast vote**:
 
-   *yarn ts-node scripts/Ballot/castVote.ts "contract address" "proposal number" "number of votes"*
+   *yarn ts-node scripts/castVote.ts "contract address" "proposal number" "number of votes"*
    
    Console log:
    ```
@@ -116,7 +121,7 @@ Running scripts:
    
 6. **Query voting result**:
 
-   *yarn ts-node scripts/Ballot/queryResult.ts "contract address"*
+   *yarn ts-node scripts/queryResult.ts "contract address"*
    
    Console log:
    ```
