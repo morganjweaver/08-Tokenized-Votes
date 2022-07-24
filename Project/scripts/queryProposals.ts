@@ -35,7 +35,8 @@ async function main() {
 
   console.log("Proposals: ");
   // let numProposals: BigNumber;
-  const numProposals: BigNumber = await ballotContract.getProposalsLength();
+  const numProposals = await ballotContract.getProposalsLength();
+  console.log(`Length of proposals: ${numProposals.toString()}`);
   for (let i = 0; i < numProposals.toNumber(); i++) {
     var proposal = ethers.utils.parseBytes32String(
       (await ballotContract.proposals(i)).name
