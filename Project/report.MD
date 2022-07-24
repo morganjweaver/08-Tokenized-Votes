@@ -12,7 +12,7 @@ Please see tests directory for testing information. We deployed the contracts on
 
 Token address: 0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE
 
-Proposals Ballot 1: 
+Proposals Ballot 1 (0x513b542be775BE31cAEFf19F97753367757EcAa8): 
 
 1. Chocolate
 2. Vanilla
