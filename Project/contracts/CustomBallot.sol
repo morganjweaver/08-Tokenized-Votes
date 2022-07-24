@@ -60,7 +60,7 @@ contract CustomBallot {
             spentVotePower[msg.sender];
     }
 
-    function getProposalsLength() external view returns (uint256 numProposals) {
+    function getProposalsLength() public view returns (uint256 numProposals) {
         return proposals.length;
     }
 }
