@@ -94,7 +94,12 @@ Running scripts:
    
    Console log:
    ```
-  ...
+   Using address 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf
+   Attaching token contract interface to address 0x1b111CA1314D4d387D1fE2792323c0a9cFFC09CE
+   Delegate votes to 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf
+   Wallet balance 1.0220088230669855
+   Awaiting confirmations
+   Transaction completed. Hash: 0x7c0080483a0d63e0faebbbb09b3235424e92fb1073bc77428f512db62cb26919
    ```
    
 5. **Cast vote**:
