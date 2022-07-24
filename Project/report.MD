@@ -10,21 +10,29 @@ Here we present the results of running our scripts with several proposals for to
 
 Please see tests directory for testing information.
 
-Proposals:
+Proposals Ballot 1:
 
-1. Ramen
-2. Pizza
-3. Burger
-4. Tacos
-5. Ražnjići
+1. Chocolate
+2. Vanilla
+3. Rasperry
+4. Pistachio
+5. Strawberry
+
+Proposals Ballot 2:
+
+1. Barcelona
+2. Parin
+3. Berlin
+4. Seoul
+5. New York
 
 Voters Appointed:
 
-1.  (Chairperson)
-2. 
-3.
-4.
-5.
+1. 0x5214990E840dEB4581760606a9970a0186AAa7F3 (Chairperson)
+2. 0x97c44088Bb74583A03E0d21E9e56cdae60a306B0
+3. 0x6E39C86191D1D2581a24198b06a3f6dacE03aF91
+4. 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf
+5. 0xd1800C1Df4e798954b992a1b8C8fB7C02c3957D6
 
 Transactions:
 
