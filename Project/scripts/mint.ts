@@ -1,8 +1,7 @@
 import { Contract, ethers } from "ethers"; // Hardhat for testing
 import "dotenv/config";
-import * as ballotJson from "../artifacts/contracts/CustomBallot.sol/CustomBallot.json";
 import * as tokenJson from "../artifacts/contracts/Token.sol/MyToken.json";
-import { CustomBallot, MyToken } from "../typechain";
+import { MyToken } from "../typechain";
 
 // This key is already public on Herong's Tutorial Examples - v1.03, by Dr. Herong Yang
 // Do never expose your keys like this
@@ -42,7 +41,7 @@ async function main() {
   if (!checkBalance(signer)) {
     return;
   }
-  if (process.argv.length < 3) throw new Error("Ballot address missing");
+  if (process.argv.length < 3) throw new Error("Token address missing");
   const tokenAddress = process.argv[2];
   if (process.argv.length < 4) throw new Error("Voter address missing");
   const voterAddress = process.argv[3];
