@@ -66,6 +66,7 @@ Transactions:
 | 0x8bb421625e0b2dcf069eb2e3562b84eeff10e335035c84f4696ab419ebab7b6a | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run delegate.ts | Delegate Votes |
 | 0xb5c9bcf16f48a36b8a5c57700afa43e4773293a18e65c176ff9bad326447f30e | 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf | 0x513b542be775BE31cAEFf19F97753367757EcAa8 | run castVote.ts | Cast vote|
 | 0x8f42c90ba7781b52722f120190afa33a68c8ac873229f0d9ce87d5f8c2dec525 | 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf | 0xa927Effa17E6E57e33Eef82c89051AB9Be47E708 | run castVote.ts | Cast vote |
+| query execution, no Tx hash | 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf | 0xa927Effa17E6E57e33Eef82c89051AB9Be47E708 | run queryResult | Query winner (Barcelona) | 
 
 Running scripts:
 
@@ -134,6 +135,7 @@ Running scripts:
    
    Console log:
    ```
+   Using address 0xcd6B97E773fD588Ddf9462dD7e4f9869e120acFf
    Wallet balance 1.0218851150663257
    Attaching Ballot contract interface to address 0x513b542be775BE31cAEFf19F97753367757EcAa8
    ```
@@ -144,7 +146,7 @@ Running scripts:
    
    Console log:
    ```
-   ...
-   The winning proposal is Pizza
+   Using address 0x63FaC9201494f0bd17B9892B9fae4d52fe3BD377
+   Winning proposal is Barcelona
    ```
 
