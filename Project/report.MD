@@ -19,7 +19,7 @@ Please see tests directory for testing information. We deployed the contracts on
 5. Some delegated their votes to someone else.
 6. Second Ballot contract was deployed.
 7. Everyone voted on that Ballot, too.
-8. Query winners for both ballots.
+8. Query winners for both ballots. (Raspberry and Barcelona)
 ----------------------------------------------------------------------------------
 
 
@@ -73,7 +73,6 @@ Transactions:
 | 0x531178f6f8c7d5aaf22d6af83d0ae4206af14da7615cf9e2cd81d9d007dd44d3 | 0xd1800c1df4e798954b992a1b8c8fb7c02c3957d6 | 0x513b542be775BE31cAEFf19F97753367757EcAa8 | run castVote.ts | Cast vote|
 | 0x371a12f8f9de6078015b684f1a81b52ba2eab033cfa2eab282e290c00d8e3397 | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run delegate.ts | Delegate Votes|
 | 0x2f4ed6b5dc990e3ca7813b68d6f554563342a931304b9166c6ba297af736a24c | 0x6e39c86191d1d2581a24198b06a3f6dace03af91 | 0x1b111ca1314d4d387d1fe2792323c0a9cffc09ce | run delegate.ts | Delegate Votes|
-
 | 0x5da7afaeaf576d2c6e294fca3e0bccf5795c0d3f5a55f90473b82dee2c912e80 | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0xa927effa17e6e57e33eef82c89051ab9be47e708 | run ballotDeployment.ts | Deploy second ballot contract |
 | 0x28d1eee2e3cefc4e47b25fdd27a9f362a2731d1d9ce7b69faf3ab3d04c1cb1d8 | 0x5214990e840deb4581760606a9970a0186aaa7f3 | 0xa927Effa17E6E57e33Eef82c89051AB9Be47E708 | run castVote.ts | Cast vote |
 | 0x886bb001f98487c8eabf53531abef26b14ff8b566c9c6c4ea20c97dc1a30146b | 0x6e39c86191d1d2581a24198b06a3f6dace03af91 | 0xa927Effa17E6E57e33Eef82c89051AB9Be47E708 | run castVote.ts | Cast vote |
