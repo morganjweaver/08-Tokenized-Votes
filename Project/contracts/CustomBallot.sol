@@ -66,12 +66,14 @@ contract CustomBallot {
     }
 
     /// @notice Get the name of the winning proposal
+    /// @return winnerName_ name of the winning proposal
     function winnerName() external view returns (bytes32 winnerName_) {
         winnerName_ = proposals[winningProposal()].name;
     }
 
     /// @notice Get the identifier of the winning proposal
     /// @dev If no votes were casted, returns the first proposal in the proposals array
+    /// @return winningProposal_ winning proposal identifier
     function winningProposal() public view returns (uint256 winningProposal_) {
         uint256 winningVoteCount = 0;
         for (uint256 p = 0; p < proposals.length; p++) {
@@ -83,6 +85,7 @@ contract CustomBallot {
     }
 
     /// @notice Get the voting power of the sender address
+    /// @return votingPower_ voting power
     function votingPower() public view returns (uint256 votingPower_) {
         votingPower_ =
             voteToken.getPastVotes(msg.sender, referenceBlock) -
@@ -90,6 +93,7 @@ contract CustomBallot {
     }
 
     /// @notice Get the total number of proposals
+    /// @return numProposals number of proposals
     function getProposalsLength() public view returns (uint256 numProposals) {
         return proposals.length;
     }
