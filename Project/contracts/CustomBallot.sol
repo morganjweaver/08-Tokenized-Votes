@@ -40,6 +40,10 @@ contract CustomBallot {
         emit Voted(msg.sender, proposal, amount, proposals[proposal].voteCount);
     }
 
+    function winnerName() external view returns (bytes32 winnerName_) {
+        winnerName_ = proposals[winningProposal()].name;
+    }
+
     function winningProposal() public view returns (uint256 winningProposal_) {
         uint256 winningVoteCount = 0;
         for (uint256 p = 0; p < proposals.length; p++) {
@@ -48,10 +52,6 @@ contract CustomBallot {
                 winningProposal_ = p;
             }
         }
-    }
-
-    function winnerName() external view returns (bytes32 winnerName_) {
-        winnerName_ = proposals[winningProposal()].name;
     }
 
     function votingPower() public view returns (uint256 votingPower_) {
