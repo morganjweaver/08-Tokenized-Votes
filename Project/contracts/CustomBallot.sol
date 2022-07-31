@@ -91,10 +91,4 @@ contract CustomBallot {
             voteToken.getPastVotes(msg.sender, referenceBlock) -
             spentVotePower[msg.sender];
     }
-
-    /// @notice Get the total number of proposals
-    /// @return numProposals number of proposals
-    function getProposalsLength() public view returns (uint256 numProposals) {
-        return proposals.length;
-    }
 }
