@@ -76,7 +76,8 @@ contract CustomBallot {
     /// @return winningProposal_ winning proposal identifier
     function winningProposal() public view returns (uint256 winningProposal_) {
         uint256 winningVoteCount = 0;
-        for (uint256 p = 0; p < proposals.length; p++) {
+        uint8 proposalsLength = uint8(proposals.length);
+        for (uint256 p = 0; p < proposalsLength; p++) {
             if (proposals[p].voteCount > winningVoteCount) {
                 winningVoteCount = proposals[p].voteCount;
                 winningProposal_ = p;
