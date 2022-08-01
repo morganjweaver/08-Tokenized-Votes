@@ -13,18 +13,6 @@ interface IERC20Votes {
 /// @notice You can use this contract to run voting on custom proposals
 contract CustomBallot {
 
-    /// @notice Event used to signal that user voted
-    /// @param voter Voter address
-    /// @param proposal Identifier of the voted proposal
-    /// @param weight Vote weight, amounts to the number of votes given through a single vote
-    /// @param proposalVotes Total amount of votes for voted proposal
-    event Voted(
-        address indexed voter,
-        uint256 indexed proposal,
-        uint256 weight,
-        uint256 proposalVotes
-    );
-
     /// @notice Proposal struct
     /// @param name Name of the proposal
     /// @param voteCount Total amount of votes for the proposal
@@ -53,6 +41,18 @@ contract CustomBallot {
         voteToken = IERC20Votes(_voteToken);
         referenceBlock = block.number;
     }
+
+    /// @notice Event used to signal that user voted
+    /// @param voter Voter address
+    /// @param proposal Identifier of the voted proposal
+    /// @param weight Vote weight, amounts to the number of votes given through a single vote
+    /// @param proposalVotes Total amount of votes for voted proposal
+    event Voted(
+        address indexed voter,
+        uint256 indexed proposal,
+        uint256 weight,
+        uint256 proposalVotes
+    );
 
     /// @notice Vote on the proposal
     /// @param proposal Proposal identifier
